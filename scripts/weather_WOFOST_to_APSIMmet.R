@@ -25,10 +25,10 @@ dat[, day := as.numeric(julian(date, origin = as.Date(paste0(year, "-01-01")))) 
     by = year]
 meta
 dat[, radn := `kJ/m2/day or hours` * 0.001]
-dat[, ':=' (maxt = Celsius...3,
-            mint = Celsius...4)]
-dat[, rain := mm]
-dat[, wind := `m/sec`]
+dat[, ':=' (maxt = Celsius...4,
+            mint = Celsius...3)]
+dat[, rain := round(mm)]
+dat[, wind := round(`m/sec`)]
 met_dat <- dat[,.(year, day, radn, maxt, mint, rain, wind)] 
 header <- "year  day radn  maxt   mint  rain  wind"
 unit <- "  ()   () (MJ/m^2) (oC) (oC)  (mm)  (m/s)"
