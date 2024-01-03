@@ -131,12 +131,12 @@
                     0.11
                   ],
                   "LL15": [
-                    0.16,
-                    0.16,
-                    0.15,
-                    0.13,
-                    0.15,
-                    0.15
+                    0.11,
+                    0.11,
+                    0.11,
+                    0.11,
+                    0.11,
+                    0.11
                   ],
                   "DUL": [
                     0.25,
@@ -365,7 +365,7 @@
                     0.3,
                     0.3
                   ],
-                  "InitialPAWmm": 231.0,
+                  "InitialPAWmm": 288.0,
                   "RelativeTo": "LL15",
                   "FilledFromTop": true,
                   "Name": "Water",
@@ -569,65 +569,289 @@
                 {
                   "$type": "Models.Operation, Models",
                   "Enabled": true,
-                  "Date": "2022-11-26",
-                  "Action": "[Irrigation].Apply(15);",
-                  "Line": "2022-11-26 [Irrigation].Apply(15);"
+                  "Date": "2022-11-01",
+                  "Action": "[Irrigation].Apply(80);",
+                  "Line": "2022-11-01 [Irrigation].Apply(80);"
                 },
                 {
                   "$type": "Models.Operation, Models",
                   "Enabled": true,
-                  "Date": "2022-12-04",
-                  "Action": "[Irrigation].Apply(50);",
-                  "Line": "2022-12-04 [Irrigation].Apply(50);"
+                  "Date": "2022-11-21",
+                  "Action": "[Irrigation].Apply(16);",
+                  "Line": "2022-11-21 [Irrigation].Apply(16);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2022-12-02",
+                  "Action": "[Irrigation].Apply(26);",
+                  "Line": "2022-12-02 [Irrigation].Apply(26);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2022-12-08",
+                  "Action": "[Irrigation].Apply(3);",
+                  "Line": "2022-12-08 [Irrigation].Apply(3);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2022-12-10",
+                  "Action": "[Irrigation].Apply(3);",
+                  "Line": "2022-12-10 [Irrigation].Apply(3);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2022-12-12",
+                  "Action": "[Irrigation].Apply(5);",
+                  "Line": "2022-12-12 [Irrigation].Apply(5);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2022-12-14",
+                  "Action": "[Irrigation].Apply(5);",
+                  "Line": "2022-12-14 [Irrigation].Apply(5);"
                 },
                 {
                   "$type": "Models.Operation, Models",
                   "Enabled": true,
                   "Date": "2022-12-16",
-                  "Action": "[Irrigation].Apply(15);",
-                  "Line": "2022-12-16 [Irrigation].Apply(15);"
+                  "Action": "[Irrigation].Apply(5);",
+                  "Line": "2022-12-16 [Irrigation].Apply(5);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2022-12-18",
+                  "Action": "[Irrigation].Apply(5);",
+                  "Line": "2022-12-18 [Irrigation].Apply(5);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2022-12-20",
+                  "Action": "[Irrigation].Apply(5);",
+                  "Line": "2022-12-20 [Irrigation].Apply(5);"
                 },
                 {
                   "$type": "Models.Operation, Models",
                   "Enabled": true,
                   "Date": "2022-12-22",
-                  "Action": "[Irrigation].Apply(50);",
-                  "Line": "2022-12-22 [Irrigation].Apply(50);"
+                  "Action": "[Irrigation].Apply(6);",
+                  "Line": "2022-12-22 [Irrigation].Apply(6);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2022-12-24",
+                  "Action": "[Irrigation].Apply(6);",
+                  "Line": "2022-12-24 [Irrigation].Apply(6);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2022-12-26",
+                  "Action": "[Irrigation].Apply(6);",
+                  "Line": "2022-12-26 [Irrigation].Apply(6);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2022-12-28",
+                  "Action": "[Irrigation].Apply(6);",
+                  "Line": "2022-12-28 [Irrigation].Apply(6);"
                 },
                 {
                   "$type": "Models.Operation, Models",
                   "Enabled": true,
                   "Date": "2022-12-30",
-                  "Action": "[Irrigation].Apply(50);",
-                  "Line": "2022-12-30 [Irrigation].Apply(50);"
+                  "Action": "[Irrigation].Apply(6);",
+                  "Line": "2022-12-30 [Irrigation].Apply(6);"
                 },
                 {
                   "$type": "Models.Operation, Models",
                   "Enabled": true,
-                  "Date": "2023-01-08",
-                  "Action": "[Irrigation].Apply(50);",
-                  "Line": "2023-01-08 [Irrigation].Apply(50);"
+                  "Date": "2023-01-01",
+                  "Action": "[Irrigation].Apply(10);",
+                  "Line": "2023-01-01 [Irrigation].Apply(10);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-01-03",
+                  "Action": "[Irrigation].Apply(10);",
+                  "Line": "2023-01-03 [Irrigation].Apply(10);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-01-05",
+                  "Action": "[Irrigation].Apply(10);",
+                  "Line": "2023-01-05 [Irrigation].Apply(10);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-01-07",
+                  "Action": "[Irrigation].Apply(10);",
+                  "Line": "2023-01-07 [Irrigation].Apply(10);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-01-09",
+                  "Action": "[Irrigation].Apply(10);",
+                  "Line": "2023-01-09 [Irrigation].Apply(10);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-01-11",
+                  "Action": "[Irrigation].Apply(10);",
+                  "Line": "2023-01-11 [Irrigation].Apply(10);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-01-13",
+                  "Action": "[Irrigation].Apply(8);",
+                  "Line": "2023-01-13 [Irrigation].Apply(8);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-01-15",
+                  "Action": "[Irrigation].Apply(8);",
+                  "Line": "2023-01-15 [Irrigation].Apply(8);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-01-17",
+                  "Action": "[Irrigation].Apply(8);",
+                  "Line": "2023-01-17 [Irrigation].Apply(8);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-01-19",
+                  "Action": "[Irrigation].Apply(8);",
+                  "Line": "2023-01-19 [Irrigation].Apply(8);"
                 },
                 {
                   "$type": "Models.Operation, Models",
                   "Enabled": true,
                   "Date": "2023-01-21",
-                  "Action": "[Irrigation].Apply(50);",
-                  "Line": "2023-01-21 [Irrigation].Apply(50);"
+                  "Action": "[Irrigation].Apply(6);",
+                  "Line": "2023-01-21 [Irrigation].Apply(6);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-01-23",
+                  "Action": "[Irrigation].Apply(6);",
+                  "Line": "2023-01-23 [Irrigation].Apply(6);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-01-25",
+                  "Action": "[Irrigation].Apply(6);",
+                  "Line": "2023-01-25 [Irrigation].Apply(6);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-01-27",
+                  "Action": "[Irrigation].Apply(6);",
+                  "Line": "2023-01-27 [Irrigation].Apply(6);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-01-29",
+                  "Action": "[Irrigation].Apply(6);",
+                  "Line": "2023-01-29 [Irrigation].Apply(6);"
                 },
                 {
                   "$type": "Models.Operation, Models",
                   "Enabled": true,
                   "Date": "2023-01-31",
-                  "Action": "[Irrigation].Apply(50);",
-                  "Line": "2023-01-31 [Irrigation].Apply(50);"
+                  "Action": "[Irrigation].Apply(5);",
+                  "Line": "2023-01-31 [Irrigation].Apply(5);"
                 },
                 {
                   "$type": "Models.Operation, Models",
                   "Enabled": true,
-                  "Date": "2023-02-27",
-                  "Action": "[Irrigation].Apply(25);",
-                  "Line": "2023-02-27 [Irrigation].Apply(25);"
+                  "Date": "2023-02-02",
+                  "Action": "[Irrigation].Apply(5);",
+                  "Line": "2023-02-02 [Irrigation].Apply(5);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-02-04",
+                  "Action": "[Irrigation].Apply(5);",
+                  "Line": "2023-02-04 [Irrigation].Apply(5);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-02-06",
+                  "Action": "[Irrigation].Apply(4);",
+                  "Line": "2023-02-06 [Irrigation].Apply(4);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-02-08",
+                  "Action": "[Irrigation].Apply(4);",
+                  "Line": "2023-02-08 [Irrigation].Apply(4);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-02-10",
+                  "Action": "[Irrigation].Apply(19);",
+                  "Line": "2023-02-10 [Irrigation].Apply(19);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-02-12",
+                  "Action": "[Irrigation].Apply(16);",
+                  "Line": "2023-02-12 [Irrigation].Apply(16);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-02-14",
+                  "Action": "[Irrigation].Apply(16);",
+                  "Line": "2023-02-14 [Irrigation].Apply(16);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-02-16",
+                  "Action": "[Irrigation].Apply(16);",
+                  "Line": "2023-02-16 [Irrigation].Apply(16);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-02-18",
+                  "Action": "[Irrigation].Apply(16);",
+                  "Line": "2023-02-18 [Irrigation].Apply(16);"
+                },
+                {
+                  "$type": "Models.Operation, Models",
+                  "Enabled": true,
+                  "Date": "2023-02-20",
+                  "Action": "[Irrigation].Apply(16);",
+                  "Line": "2023-02-20 [Irrigation].Apply(16);"
                 }
               ],
               "Name": "Operations",
