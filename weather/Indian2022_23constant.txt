@@ -1,0 +1,6 @@
+[weather.met.weather]
+StationName =  IndianExpt2022
+latitude =  23.84
+longitude =  73.13
+tav =  28.15  (oC) ! annual average ambient temperature
+amp =  34.5  (oC) ! annual amplitude in mean monthly temperature

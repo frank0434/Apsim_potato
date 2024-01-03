@@ -1,11 +1,4 @@
-[weather.met.weather]
-IndianExpt2022
-23.84
-73.13
-tav =  28.15  (oC) ! annual average ambient temperature
-amp =  34.5  (oC) ! annual amplitude in mean monthly temperature
-year  day radn  maxt   mint  rain  wind
-  ()   () (MJ/m^2) (oC) (oC)  (mm)  (m/s)
+year,day,radn,maxt,mint,rain,wind
 2022,305,18.25,28.54,15.84,0,1
 2022,306,18.18,30.19,15.31,0,1
 2022,307,17.88,29.79,17.41,0,1

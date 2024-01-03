@@ -33,17 +33,17 @@ met_dat <- dat[,.(year, day, radn, maxt, mint, rain, wind)]
 header <- "year  day radn  maxt   mint  rain  wind"
 unit <- "  ()   () (MJ/m^2) (oC) (oC)  (mm)  (m/s)"
 
+# Write the data to the CSV file, starting from the 9th row
+write.table(met_dat, file = 'weather/Indian2022_23APSIM.csv', sep = ",", row.names = FALSE, col.names = TRUE, quote = FALSE)
+
 # Open a connection to the CSV file
-con <- file("weather/Indian2022_23APSIM.csv", open = "wt")
+con <- file("weather/Indian2022_23constant.txt", open = "wt")
 
 # Write the first 8 rows to the CSV file
-writeLines(c(row1, stationnm, latitude, longitude, 
+writeLines(c(row1, paste("StationName = ",stationnm), paste("latitude = ",latitude), paste("longitude = ", longitude), 
        paste("tav = ", tav, " (oC) ! annual average ambient temperature"),
-       paste("amp = ", amp, " (oC) ! annual amplitude in mean monthly temperature"),
-       header, unit), con)
+       paste("amp = ", amp, " (oC) ! annual amplitude in mean monthly temperature")), con)
 
-# Write the data to the CSV file, starting from the 9th row
-write.table(met_dat, file = con, sep = ",", row.names = FALSE, col.names = FALSE, quote = FALSE)
 
 # Close the connection to the CSV file
 close(con)
